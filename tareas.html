@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Pagina Web con Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <script src="./js/miscript.js"></script>
+
+    <script>
+      //alert("Hola");
+      var numero1 = 120;
+      var numero2 = 4;
+      var suma = numero1 + numero2;
+      //alert(suma);
+    </script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Nueva Actividad (Tarea)</h1>
+        <input
+          type="text"
+          id="titulo"
+          class="form-control"
+          placeholder="Ingrese su Actividad"
+        />
+        <br />
+        <textarea
+          id="detalle"
+          cols="30"
+          rows="5"
+          class="form-control"
+          placeholder="Ingrese su descripción"
+        ></textarea>
+
+        <br />
+        <button onclick="agregarTarea()">Agregar Tareas</button>
+      </div>
+      <div class="col-md-6">
+        <div id="tareas"></div>
+      </div>
+    </div>
+
+    <script>
+      var listaActividades = [];
+      if (localStorage.getItem("TAREAS")) {
+        listaActividades = JSON.parse(localStorage.getItem("TAREAS"));
+        listar();
+      }
+
+      function agregarTarea() {
+        //alert("Guardando información");
+        var nom = document.getElementById("titulo").value;
+        var detalle = document.getElementById("detalle").value;
+        console.log(nom, detalle);
+        var tarea = {
+          titulo: nom,
+          detalle: detalle,
+        };
+        console.log(tarea);
+
+        listaActividades.push(tarea);
+        localStorage.setItem("TAREAS", JSON.stringify(listaActividades));
+        listar();
+
+        /* for(inicial;condicion;incremento){
+
+    }*/
+      }
+
+      function listar() {
+        //FOR
+        var contenido = "";
+        for (i = 0; i < listaActividades.length; i++) {
+          var tit = listaActividades[i].titulo;
+          var des = listaActividades[i].detalle;
+          contenido += `
+            <div class="card bg-info p-3"><h3>${tit}</h3>
+                <p>${des}</p>
+                </div>
+        `;
+        }
+        document.getElementById("tareas").innerHTML = contenido;
+      }
+    </script>
+  </body>
+</html>
