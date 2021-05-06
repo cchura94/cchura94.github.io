@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["cliente"],{efd9:function(e,n,t){"use strict";t.r(n);var l=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("router-view")},r=[],u={},c=u,i=t("2877"),o=Object(i["a"])(c,l,r,!1,null,null,null);n["default"]=o.exports}}]);
+//# sourceMappingURL=cliente.e7b78741.js.map

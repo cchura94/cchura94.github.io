@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["pedido"],{ffe9:function(e,n,t){"use strict";t.r(n);var r=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("router-view")},u=[],l={},o=l,c=t("2877"),i=Object(c["a"])(o,r,u,!1,null,null,null);n["default"]=i.exports}}]);
+//# sourceMappingURL=pedido.b533fca9.js.map
