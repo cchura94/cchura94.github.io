@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfrontend_app"]=self["webpackChunkfrontend_app"]||[]).push([[443],{890:function(n,r,t){t.r(r),t.d(r,{default:function(){return p}});var e=t(3396),a=t(7139);const u={class:"card"},i=(0,e._)("h1",null,"Mi Perfil",-1);function c(n,r,t,c,f,l){return(0,e.wg)(),(0,e.iD)("div",u,[i,(0,e.Uk)(" "+(0,a.zw)(f.perfil),1)])}var f=t(3214),l={data(){return{perfil:null}},async mounted(){const{data:n}=await f.Vd();this.perfil=n}},s=t(89);const d=(0,s.Z)(l,[["render",c]]);var p=d}}]);
+//# sourceMappingURL=about.56fe9705.js.map
