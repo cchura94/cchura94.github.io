@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkfront_laravel_vue"]=self["webpackChunkfront_laravel_vue"]||[]).push([[443],{7381:function(n,a,e){e.r(a),e.d(a,{default:function(){return i}});var r=e(3396);const u={class:"about"},t=(0,r._)("h1",null,"This is an about page",-1),s=[t];function l(n,a){return(0,r.wg)(),(0,r.iD)("div",u,s)}var c=e(89);const o={},f=(0,c.Z)(o,[["render",l]]);var i=f}}]);
-//# sourceMappingURL=about.0a330e17.js.map
