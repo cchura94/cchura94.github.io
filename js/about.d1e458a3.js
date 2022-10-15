@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkfront_roles_persmisos_vue"]=self["webpackChunkfront_roles_persmisos_vue"]||[]).push([[443],{7381:function(s,e,n){n.r(e),n.d(e,{default:function(){return l}});var r=n(3396);const u={class:"about"},t=(0,r._)("h1",null,"This is an about page",-1),o=[t];function a(s,e){return(0,r.wg)(),(0,r.iD)("div",u,o)}var i=n(89);const c={},f=(0,i.Z)(c,[["render",a]]);var l=f}}]);
-//# sourceMappingURL=about.d1e458a3.js.map
