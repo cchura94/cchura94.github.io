@@ -1,1 +1,0 @@
-import{k as t}from"./index-e5a80d16.js";const i={listar(){return t().get("/categoria")},guardar:r=>t().post("/categoria",r),mostrar:function(r){return t().get(`/categoria/${r}`)},modificar:(r,a)=>t().put(`/categoria/${a}`,r),eliminar:r=>t().delete(`/categoria/${r}`)};export{i as c};
