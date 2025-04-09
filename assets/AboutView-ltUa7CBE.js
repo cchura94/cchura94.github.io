@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as s,a as t}from"./index-BnVKweCO.js";const c={},a={class:"about"},_=t("h1",null,"Acerca de Nosotros",-1),n=[_];function r(d,i){return s(),o("div",a,n)}const f=e(c,[["render",r]]);export{f as default};
